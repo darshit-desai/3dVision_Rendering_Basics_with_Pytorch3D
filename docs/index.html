@@ -7,8 +7,8 @@
     <div id="markdownContent"></div>
 
     <script>
-        // Fetch the contents of index.md.html
-        fetch('https://github.com/darshit-desai/3dVision_Rendering_Basics_with_Pytorch3D/blob/c4305f7618797ae3b6268c0cc5ad1d3ac55260e0/docs/starter.md.html')
+        // Use a CORS proxy to fetch the content
+        fetch('https://cors-anywhere.herokuapp.com/https://github.com/darshit-desai/3dVision_Rendering_Basics_with_Pytorch3D/blob/c4305f7618797ae3b6268c0cc5ad1d3ac55260e0/docs/starter.md.html')
             .then(response => response.text())
             .then(data => {
                 // Insert the contents into the 'markdownContent' div
