@@ -30,10 +30,15 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
+
+      # Add a step to copy _config.yml into the Jekyll source directory
+      - name: Copy _config.yml
+        run: cp _config.yml ./your_jekyll_source_directory/
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
+          source: ./your_jekyll_source_directory/  # Specify your Jekyll source directory
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
