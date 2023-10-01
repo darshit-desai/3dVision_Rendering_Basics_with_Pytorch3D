@@ -1,25 +1,22 @@
-                    <meta charset="utf-8" emacsmode="-*- markdown -*">
-                            **CMSC848F-3D Vision**
-                                **Project 1**
-                            **Darshit Desai**
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your GitHub Page</title>
+</head>
+<body>
+    <div id="markdownContent"></div>
 
-
-                            Setup
-===============================================================================
-
-Rendering your first mesh
--------------------------------------------------------------------------------
-
-<!---add the image of my first mesh from images/cow_render.jpg using html md style from the root folder-->
-![Rendering the first mesh](https://github.com/darshit-desai/3dVision_Rendering_Basics_with_Pytorch3D/blob/main/docs/assets/cow_render.jpg)
-
-
-
-
-
-
-
-
-
-<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js?" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
-
+    <script>
+        // Fetch the contents of index.md.html
+        fetch('index.md.html')
+            .then(response => response.text())
+            .then(data => {
+                // Insert the contents into the 'markdownContent' div
+                document.getElementById('markdownContent').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error fetching index.md.html:', error);
+            });
+    </script>
+</body>
+</html>
