@@ -4,19 +4,6 @@
     <title>Your GitHub Page</title>
 </head>
 <body>
-    <div id="markdownContent"></div>
-
-    <script>
-        // Use a CORS proxy to fetch the content
-        fetch('https://raw.githubusercontent.com/darshit-desai/3dVision_Rendering_Basics_with_Pytorch3D/main/docs/starter.md.html')
-            .then(response => response.text())
-            .then(data => {
-                // Insert the contents into the 'markdownContent' div
-                document.getElementById('markdownContent').innerHTML = data;
-            })
-            .catch(error => {
-                console.error('Error fetching starter.md.html:', error);
-            });
-    </script>
+    <object data="https://github.com/darshit-desai/3dVision_Rendering_Basics_with_Pytorch3D/blob/c4305f7618797ae3b6268c0cc5ad1d3ac55260e0/docs/starter.md.html"></object>
 </body>
 </html>
