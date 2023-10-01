@@ -38,7 +38,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./your_jekyll_source_directory/  # Specify your Jekyll source directory
+          source: ./.github/workflows  # Specify your Jekyll source directory
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
