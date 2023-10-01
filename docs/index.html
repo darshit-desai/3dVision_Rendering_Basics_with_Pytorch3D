@@ -8,14 +8,14 @@
 
     <script>
         // Fetch the contents of index.md.html
-        fetch('index.md.html')
+        fetch('starter.md.html')
             .then(response => response.text())
             .then(data => {
                 // Insert the contents into the 'markdownContent' div
                 document.getElementById('markdownContent').innerHTML = data;
             })
             .catch(error => {
-                console.error('Error fetching index.md.html:', error);
+                console.error('Error fetching starter.md.html:', error);
             });
     </script>
 </body>
