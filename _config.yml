@@ -1,0 +1,3 @@
+remote_theme: "markdeep-coder"
+plugins:
+  - jekyll-relative-links
