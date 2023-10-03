@@ -1,3 +1,5 @@
+#  3dVision_Rendering_Basics_with_Pytorch3D
+
 ## Where is the report stored?
 
 The report is stored in `docs/ starter.md.html`, additionally you can access the report online here https://darshit-desai.github.io/3dVision_Rendering_Basics_with_Pytorch3D/
