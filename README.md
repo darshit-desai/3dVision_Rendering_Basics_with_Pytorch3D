@@ -1,15 +1,5 @@
 #  3dVision_Rendering_Basics_with_Pytorch3D
 
-
-<p align="center">
-  <a href="https://darshit-desai.github.io/3dVision_Rendering_Basics_with_Pytorch3D/">
-    <img src="https://github.com/darshit-desai/3dVision_Rendering_Basics_with_Pytorch3D/blob/main/images/PCUnion_360render.gif" width="150" />
-  </a>
-  <a href="https://darshit-desai.github.io/3dVision_Rendering_Basics_with_Pytorch3D/">
-    <img src="https://github.com/darshit-desai/3dVision_Rendering_Basics_with_Pytorch3D/blob/main/images/toroid_parametric_360render.gif" width="150" />
-  </a>
-</p>
-
 ## Where is the report/website is stored?
 
 The report is stored in `docs/ starter.md.html`, additionally you can access the report online here https://darshit-desai.github.io/3dVision_Rendering_Basics_with_Pytorch3D/
