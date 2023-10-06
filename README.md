@@ -1,13 +1,5 @@
 #  3dVision_Rendering_Basics_with_Pytorch3D
 
-<!-- <p align="center">
-  <a href="https://darshit-desai.github.io/3dVision_Rendering_Basics_with_Pytorch3D/">
-    <img src="https://github.com/darshit-desai/3dVision_Rendering_Basics_with_Pytorch3D/blob/main/images/cube_360.gif" width="150" />
-  </a>
- <a href="https://darshit-desai.github.io/3dVision_Rendering_Basics_with_Pytorch3D/">
-    <img src="https://github.com/darshit-desai/3dVision_Rendering_Basics_with_Pytorch3D/blob/main/images/dolly.gif" width="150" />
-  </a>
-</p>  -->
 
 <p align="center">
   <a href="https://darshit-desai.github.io/3dVision_Rendering_Basics_with_Pytorch3D/">
